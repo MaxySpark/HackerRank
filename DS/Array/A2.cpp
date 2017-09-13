@@ -43,3 +43,5 @@ int main(){
     cout<<B[15];
     return 0;   
 }
+
+// https://www.hackerrank.com/challenges/2d-array/problem
