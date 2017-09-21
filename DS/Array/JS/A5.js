@@ -1,3 +1,13 @@
+function countOccurance(list,str) {
+    var count = 0;
+    for(var i=0;i<list.length;i++) {
+        if(list[i]==str) {
+            count++;
+        }
+    }
+    return count;
+}
+
 function processData(input) {
     //Enter your code here
     var line = input.split('\n');
@@ -26,13 +36,3 @@ process.stdin.on("data", function (input) {
 process.stdin.on("end", function () {
    processData(_input);
 });
-
-function countOccurance(list,str) {
-    var count = 0;
-    for(var i=0;i<list.length;i++) {
-        if(list[i]==str) {
-            count++;
-        }
-    }
-    return count;
-}
